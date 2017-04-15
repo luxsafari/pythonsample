@@ -8,7 +8,7 @@ class HogeResource(object):
         """Handles GET requests"""
         resp.status = falcon.HTTP_200
         resp.body = json.dumps({ 
-                      "result": true, 
+                      "result": True, 
                       "message": "success!",
                     })
 
